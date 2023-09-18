@@ -4,48 +4,49 @@ body {
 }
 
 header {
-    font-size: 75px;
-    margin-top: 50px;
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-
-.menu-box {
+.container {
+    display: flex;
+    justify-content: space-between;
+  
+.box {
+    flex:1
     display: inline-block;
     width: 30%;
+    text-align: left;
     padding: 20px;
-    background-color: #e0e0e0;
-    margin: 20px;
+    background-color: #8c8c8c;
+    margin: 10px;
     position: relative;
     border: 2px solid black;
 }
 
-.menu-title {
-    font-size: 25px;
+.title {
+    font-size: 1.25em;
     font-weight: bold;
+    color: black;
     position: absolute;
     top: 0;
     right: 0;
     padding: 5px;
     border-radius: 5px;
     border: 2px solid black;
+    float: right;
 }
 
 .chicken {
-    background-color: purple;
-    color: black;
-    font-size: 125%;
-    float: right;
+    background-color: #f5adff;
 }
 
 .beef {
     background-color: red;
     color: white;
-    font-size: 125%;
-    float: right;
+
 }
 
 .sushi {
     background-color: yellow;
-    color: black;
-    font-size: 125%;
-    float: right;
 }
