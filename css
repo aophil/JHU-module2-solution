@@ -1,1 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
+header {
+    font-size: 75px;
+    margin-top: 50px;
+}
+
+.menu-box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin: 20px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.menu-title {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.chicken {
+    background-color: purple;
+    color: black;
+    font-size: 125%;
+    float: right;
+}
+
+.beef {
+    background-color: red;
+    color: white;
+    font-size: 125%;
+    float: right;
+}
+
+.sushi {
+    background-color: yellow;
+    color: black;
+    font-size: 125%;
+    float: right;
+}
